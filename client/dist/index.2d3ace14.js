@@ -35030,6 +35030,7 @@ var _s = $RefreshSig$();
     _s();
     const [todos, setTodos] = (0, _react.useState)([]); // State to store the list of todos
     const [loading, setLoading] = (0, _react.useState)(true); // State to indicate loading status
+    console.log("todos", todos);
     const navigate = (0, _reactRouterDom.useNavigate)();
     /**
    * Fetches the list of todos from the backend API when the component mounts.
@@ -35066,7 +35067,7 @@ var _s = $RefreshSig$();
                 children: "My List"
             }, void 0, false, {
                 fileName: "src/components/TodoList.tsx",
-                lineNumber: 59,
+                lineNumber: 62,
                 columnNumber: 7
             }, undefined),
             loading ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35074,7 +35075,7 @@ var _s = $RefreshSig$();
                 children: "Loading..."
             }, void 0, false, {
                 fileName: "src/components/TodoList.tsx",
-                lineNumber: 62,
+                lineNumber: 65,
                 columnNumber: 9
             }, undefined) // Display loading message
              : todos.length > 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -35088,7 +35089,7 @@ var _s = $RefreshSig$();
                                 children: todo.title
                             }, void 0, false, {
                                 fileName: "src/components/TodoList.tsx",
-                                lineNumber: 68,
+                                lineNumber: 71,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -35098,7 +35099,7 @@ var _s = $RefreshSig$();
                                 children: "Edit"
                             }, void 0, false, {
                                 fileName: "src/components/TodoList.tsx",
-                                lineNumber: 72,
+                                lineNumber: 75,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -35108,18 +35109,18 @@ var _s = $RefreshSig$();
                                 children: "X"
                             }, void 0, false, {
                                 fileName: "src/components/TodoList.tsx",
-                                lineNumber: 80,
+                                lineNumber: 83,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, todo.id, true, {
                         fileName: "src/components/TodoList.tsx",
-                        lineNumber: 67,
+                        lineNumber: 70,
                         columnNumber: 15
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/TodoList.tsx",
-                lineNumber: 65,
+                lineNumber: 68,
                 columnNumber: 11
             }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "flex flex-col mb-6 p-4 bg-white shadow-lg rounded-lg",
@@ -35129,7 +35130,7 @@ var _s = $RefreshSig$();
                         children: "No Todos available"
                     }, void 0, false, {
                         fileName: "src/components/TodoList.tsx",
-                        lineNumber: 92,
+                        lineNumber: 95,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35139,24 +35140,24 @@ var _s = $RefreshSig$();
                             children: "Add New Todo"
                         }, void 0, false, {
                             fileName: "src/components/TodoList.tsx",
-                            lineNumber: 94,
+                            lineNumber: 97,
                             columnNumber: 15
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/TodoList.tsx",
-                        lineNumber: 93,
+                        lineNumber: 96,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/TodoList.tsx",
-                lineNumber: 91,
+                lineNumber: 94,
                 columnNumber: 11
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/TodoList.tsx",
-        lineNumber: 58,
+        lineNumber: 61,
         columnNumber: 5
     }, undefined);
 };

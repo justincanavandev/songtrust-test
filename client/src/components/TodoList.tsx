@@ -14,6 +14,9 @@ const TodoList: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true); // State to indicate loading status
 
 
+  console.log('todos', todos)
+
+
 
   
   const navigate = useNavigate();
